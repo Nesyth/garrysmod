@@ -3,243 +3,243 @@
 local L = LANG.CreateLanguage("English")
 
 --- General text used in various places
-L.traitor    = "Traitor"
-L.detective  = "Detective"
-L.innocent   = "Innocent"
-L.last_words = "Last Words"
+L.traitor    = "Zdrajca"
+L.detective  = "Detektyw"
+L.innocent   = "Niewinny"
+L.last_words = "Ostatnie Słowa"
 
-L.terrorists = "Terrorists"
-L.spectators = "Spectators"
+L.terrorists = "Terroryści"
+L.spectators = "Widzowie"
 
 --- Round status messages
-L.round_minplayers = "Not enough players to start a new round..."
-L.round_voting     = "Vote in progress, delaying new round by {num} seconds..."
-L.round_begintime  = "A new round begins in {num} seconds. Prepare yourself."
-L.round_selected   = "The Traitors have been selected."
-L.round_started    = "The round has begun!"
-L.round_restart    = "The round has been forced to restart by an admin."
+L.round_minplayers = "Za mało graczy by rozpocząć grę..."
+L.round_voting     = "Głosowanie trwa, delaying new round by {num} seconds..."
+L.round_begintime  = "Nowa runda rozpocznie się za {num} sekund. Przygotujcie się."
+L.round_selected   = "Zdrajcy zostali wybrani."
+L.round_started    = "Runda się rozpoczeła!"
+L.round_restart    = "Runda została zrestartowana przed Administratora."
 
-L.round_traitors_one  = "Traitor, you stand alone."
-L.round_traitors_more = "Traitor, these are your allies: {names}"
+L.round_traitors_one  = "Jesteś jedynym zdrajcą."
+L.round_traitors_more = "Zdrajco, oto twoi towarzysze: {names}"
 
-L.win_time         = "Time has run out. The Traitors lose."
-L.win_traitor      = "The Traitors have won!"
-L.win_innocent     = "The Traitors have been defeated!"
-L.win_showreport   = "Let's look at the round report for {num} seconds."
+L.win_time         = "Czas się skończył, niewinni wygrali!."
+L.win_traitor      = "Zdrajcy wygrali!"
+L.win_innocent     = "Niewinni wygrali!"
+L.win_showreport   = "Spójrzmy na podsumowanie rundy na {num} sekund."
 
-L.limit_round      = "Round limit reached. {mapname} will load soon."
-L.limit_time       = "Time limit reached. {mapname} will load soon."
-L.limit_left       = "{num} round(s) or {time} minutes remaining before the map changes to {mapname}."
+L.limit_round      = "Limit rund osiągnięty. Za chwile nastąpi zmiana mapy na {mapname}."
+L.limit_time       = "Limit czasowy osiągnięty. Za chwile nastąpi zmiana mapy na {mapname}."
+L.limit_left       = "Pozostało {num} rund lub {time} zanim mapa zmieni się na {mapname}."
 
 --- Credit awards
-L.credit_det_all   = "Detectives, you have been awarded {num} equipment credit(s) for your performance."
-L.credit_tr_all    = "Traitors, you have been awarded {num} equipment credit(s) for your performance."
+L.credit_det_all   = "Detektywi, otrzymaliście {num} kredyt(ów) gotowych do wydania w sklepie."
+L.credit_tr_all    = "Zdrajcy, otrzymaliście {num} kredyt(ów) gotowych do wydania w sklepie"
 
-L.credit_kill      = "You have received {num} credit(s) for killing a {role}."
+L.credit_kill      = "Otrzymałeś {num} kredyt(ów) za zabicie {role}."
 
 --- Karma
-L.karma_dmg_full   = "Your Karma is {amount}, so you deal full damage this round!"
-L.karma_dmg_other  = "Your Karma is {amount}. As a result all damage you deal is reduced by {num}%"
+L.karma_dmg_full   = "Twoja karma wynosi {amount}, więc twoje obrażenia nie ulegają zmianie!"
+L.karma_dmg_other  = "Twoja karma wynosi {amount}. Obrażenia jakie zadajesz zredukowano o {num}%"
 
 --- Body identification messages
-L.body_found       = "{finder} found the body of {victim}. {role}"
+L.body_found       = "{finder} odnalazł ciało {victim}. {role}"
 
 -- The {role} in body_found will be replaced by one of the following:
-L.body_found_t     = "They were a Traitor!"
-L.body_found_d     = "They were a Detective."
-L.body_found_i     = "They were Innocent."
+L.body_found_t     = "Był zdrajcą!"
+L.body_found_d     = "Był detektywem."
+L.body_found_i     = "Był niewinny."
 
-L.body_confirm     = "{finder} confirmed the death of {victim}."
+L.body_confirm     = "{finder} potwierdził zgon {victim}."
 
-L.body_call        = "{player} called a Detective to the body of {victim}!"
-L.body_call_error  = "You must confirm the death of this player before calling a Detective!"
+L.body_call        = "{player} zawołał Detektywa do ciała {victim}!"
+L.body_call_error  = "Musisz potwierdzić zgon osoby zanim zawołasz Detektywa do ciała!"
 
-L.body_burning     = "Ouch! This corpse is on fire!"
-L.body_credits     = "You found {num} credit(s) on the body!"
+L.body_burning     = "Auć! To ciało płonie!"
+L.body_credits     = "Znalazłeś {num} kredyt(ów) na ciele!"
 
 --- Menus and windows
-L.close = "Close"
-L.cancel = "Cancel"
+L.close = "Zamknij"
+L.cancel = "Anuluj"
 
 -- For navigation buttons
-L.next = "Next"
-L.prev = "Previous"
+L.next = "Dalej"
+L.prev = "Wstecz"
 
 -- Equipment buying menu
-L.equip_title     = "Equipment"
-L.equip_tabtitle  = "Order Equipment"
+L.equip_title     = "Ekwipunek"
+L.equip_tabtitle  = "Kup wyposażenie"
 
 L.equip_status    = "Ordering status"
-L.equip_cost      = "You have {num} credit(s) remaining."
-L.equip_help_cost = "Every piece of equipment you buy costs 1 credit."
+L.equip_cost      = "Pozostało ci {num} kredyt(ów)."
+L.equip_help_cost = "Wszystko co kupujesz w sklepie kosztuje jeden kredyt."
 
-L.equip_help_carry = "You can only buy things for which you have room."
-L.equip_carry      = "You can carry this equipment."
-L.equip_carry_own  = "You are already carrying this item."
-L.equip_carry_slot = "You are already carrying a weapon in slot {slot}."
+L.equip_help_carry = "Możesz zakupić tylko rzeczy na które starczy ci miejsca."
+L.equip_carry      = "Możesz zakupić ten przedmiot."
+L.equip_carry_own  = "Już posiadasz ten przedmiot."
+L.equip_carry_slot = "Już posiadasz broń w slocie {slot}."
 
-L.equip_help_stock = "Of certain items you can only buy one per round."
-L.equip_stock_deny = "This item is no longer in stock."
-L.equip_stock_ok   = "This item is in stock."
+L.equip_help_stock = "Możesz kupić tylko jeden przedmiot tego typu na rundę."
+L.equip_stock_deny = "Nie możesz kupić już tego przedmiotu."
+L.equip_stock_ok   = "Możesz zakupić ten przedmiot."
 
-L.equip_custom     = "Custom item added by this server."
+L.equip_custom     = "Ten przedmiot został dodany przez Opiekuna."
 
-L.equip_spec_name  = "Name"
-L.equip_spec_type  = "Type"
-L.equip_spec_desc  = "Description"
+L.equip_spec_name  = "Nazwa"
+L.equip_spec_type  = "Typ"
+L.equip_spec_desc  = "Opis działania"
 
-L.equip_confirm    = "Buy equipment"
+L.equip_confirm    = "Kup wyposażenie"
 
 -- Disguiser tab in equipment menu
 L.disg_name      = "Disguiser"
 L.disg_menutitle = "Disguise control"
-L.disg_not_owned = "You are not carrying a Disguiser!"
-L.disg_enable    = "Enable disguise"
+L.disg_not_owned = "Nie posiadasz tego urządzenia!"
+L.disg_enable    = "Aktywuj Disguiser"
 
-L.disg_help1     = "When your disguise is active, your name, health and karma do not show when someone looks at you. In addition, you will be hidden from a Detective's radar."
-L.disg_help2     = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
+L.disg_help1     = "Po aktywacji Disguisera, twoja nazwa, zdrowie i karma nie pokazują się po najechaniu na ciebie kursorem. Dodatkowo, jesteś ukryty przed Radarem Detektywa."
+L.disg_help2     = "Naciśnij Numpad Enter aby aktywować Disguiser. Możesz również przebindować przycisk używając komendy 'ttt_toggle_disguise' w konsoli."
 
 -- Radar tab in equipment menu
 L.radar_name      = "Radar"
 L.radar_menutitle = "Radar control"
-L.radar_not_owned = "You are not carrying a Radar!"
-L.radar_scan      = "Perform scan"
-L.radar_auto      = "Auto-repeat scan"
-L.radar_help      = "Scan results show for {num} seconds, after which the Radar will have recharged and can be used again."
-L.radar_charging  = "Your Radar is still charging!"
+L.radar_not_owned = "Nie posiadasz tego urządzenia!"
+L.radar_scan      = "Przeprowadź skan"
+L.radar_auto      = "Automatyczne skanowanie"
+L.radar_help      = "Wyniki skanowania pozostają na ekranie przez {num} sekund, po których można przeprowadzić następny skan."
+L.radar_charging  = "Skanowanie wciąż w toku!"
 
 -- Transfer tab in equipment menu
-L.xfer_name       = "Transfer"
-L.xfer_menutitle  = "Transfer credits"
-L.xfer_no_credits = "You have no credits to give!"
-L.xfer_send       = "Send a credit"
-L.xfer_help       = "You can only transfer credits to fellow {role} players."
+L.xfer_name       = "Transfer Kredytów"
+L.xfer_menutitle  = "Transfer Kredytów"
+L.xfer_no_credits = "Nie masz żadnych kredytów do przesłania!"
+L.xfer_send       = "Prześlij kredyt"
+L.xfer_help       = "Możesz wysłać kredyt tylko do kolegi z drużyny."
 
-L.xfer_no_recip   = "Recipient not valid, credit transfer aborted."
-L.xfer_no_credits = "Insufficient credits for transfer."
-L.xfer_success    = "Credit transfer to {player} completed."
-L.xfer_received   = "{player} has given you {num} credit."
+L.xfer_no_recip   = "Nie znaleziono odbiorcy, anulowano transakcje."
+L.xfer_no_credits = "Brak kredytów do wysłania."
+L.xfer_success    = "Ukończono przesyłanie kredytów graczowi {player}."
+L.xfer_received   = "{player} podarował ci {num} kredyt(ów)."
 
 -- Radio tab in equipment menu
 L.radio_name      = "Radio"
-L.radio_help      = "Click a button to make your Radio play that sound."
-L.radio_notplaced = "You must place the Radio to play sound on it."
+L.radio_help      = "Wybierz w menu dźwięk aby go odtworzyć w radiu."
+L.radio_notplaced = "Musisz postawić radio przed odtworzeniem dźwięku."
 
 -- Radio soundboard buttons
-L.radio_button_scream  = "Scream"
-L.radio_button_expl    = "Explosion"
-L.radio_button_pistol  = "Pistol shots"
-L.radio_button_m16     = "M16 shots"
-L.radio_button_deagle  = "Deagle shots"
-L.radio_button_mac10   = "MAC10 shots"
-L.radio_button_shotgun = "Shotgun shots"
-L.radio_button_rifle   = "Rifle shot"
-L.radio_button_huge    = "H.U.G.E burst"
-L.radio_button_c4      = "C4 beeping"
-L.radio_button_burn    = "Burning"
-L.radio_button_steps   = "Footsteps"
+L.radio_button_scream  = "Krzyk"
+L.radio_button_expl    = "Eksplozja"
+L.radio_button_pistol  = "Strzał pistoletu"
+L.radio_button_m16     = "Strzał M16"
+L.radio_button_deagle  = "Strzał Deagle"
+L.radio_button_mac10   = "Strzał Mac10"
+L.radio_button_shotgun = "Strzał Shotguna"
+L.radio_button_rifle   = "Strzał Scoutem"
+L.radio_button_huge    = "Strzał H.U.G.E."
+L.radio_button_c4      = "Dźwięk C4"
+L.radio_button_burn    = "Ogień"
+L.radio_button_steps   = "Odgłos chodzenia"
 
 
 -- Intro screen shown after joining
-L.intro_help     = "If you're new to the game, press F1 for instructions!"
+L.intro_help     = "Jeśli nie jesteś obeznany z trybem gry, naciśnij F1 aby uzyskać pomoc!"
 
 -- Radiocommands/quickchat
-L.quick_title   = "Quickchat keys"
+L.quick_title   = "Menu szybkiej odpowiedzi"
 
-L.quick_yes     = "Yes."
-L.quick_no      = "No."
-L.quick_help    = "Help!"
-L.quick_imwith  = "I'm with {player}."
-L.quick_see     = "I see {player}."
-L.quick_suspect = "{player} acts suspicious."
-L.quick_traitor = "{player} is a Traitor!"
-L.quick_inno    = "{player} is innocent."
-L.quick_check   = "Anyone still alive?"
+L.quick_yes     = "Tak."
+L.quick_no      = "Nie."
+L.quick_help    = "Pomocy!"
+L.quick_imwith  = "Jestem z {player}."
+L.quick_see     = "Widzę {player}."
+L.quick_suspect = "{player} zachowuje się podejrzanie."
+L.quick_traitor = "{player} jest zdrajcą!"
+L.quick_inno    = "{player} jest niewinny."
+L.quick_check   = "Ktokolwiek jeszcze żyje?"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
-L.quick_nobody    = "nobody"
-L.quick_disg      = "someone in disguise"
-L.quick_corpse    = "an unidentified body"
-L.quick_corpse_id = "{player}'s corpse"
+L.quick_nobody    = "nikt"
+L.quick_disg      = "ntoś używający Disguisera"
+L.quick_corpse    = "niezidentyfikowane ciało"
+L.quick_corpse_id = "ciało gracza {player}"
 
 
 --- Body search window
-L.search_title  = "Body Search Results"
-L.search_info   = "Information"
-L.search_confirm = "Confirm Death"
-L.search_call   = "Call Detective"
+L.search_title  = "Wynik przeszukiwania ciała"
+L.search_info   = "Informacje"
+L.search_confirm = "Potwierdź zgon"
+L.search_call   = "Zawołaj Detektywa do ciała"
 
 -- Descriptions of pieces of information found
-L.search_nick   = "This is the body of {player}."
+L.search_nick   = "To jest ciało {player}."
 
-L.search_role_t = "This person was a Traitor!"
-L.search_role_d = "This person was a Detective."
-L.search_role_i = "This person was an innocent terrorist."
+L.search_role_t = "Ta osoba była Zdrajcą!"
+L.search_role_d = "Ta osoba była Detektywem."
+L.search_role_i = "Ta osoba była niewinnym terrorystom."
 
-L.search_words  = "Something tells you some of this person's last words were: '{lastwords}'"
-L.search_armor  = "They were wearing nonstandard body armor."
-L.search_disg   = "They were carrying a device that could hide their identity."
-L.search_radar  = "They were carrying some sort of radar. It is no longer functioning."
-L.search_c4     = "In a pocket you found a note. It states that cutting wire {num} will safely disarm the bomb."
+L.search_words  = "Coś ci podpowiada, że jego ostatnie słowa przed śmiercią brzmiały: '{lastwords}'"
+L.search_armor  = "Nosił kamizelkę ochronną kupioną na czarnym rynku."
+L.search_disg   = "Posiadał urządzenie do ukrywania jego tożsamości."
+L.search_radar  = "Posiadał coś o budowie podobnej do radaru. Niestety, nie funkcjonuje już."
+L.search_c4     = "W kieszeni znaleźliśmy karteczkę. Wskazywała ona, że kabelek numer {num} rozbroi bombe."
 
-L.search_dmg_crush  = "Many of their bones are broken. It seems the impact of a heavy object killed them."
-L.search_dmg_bullet = "It is obvious they were shot to death."
-L.search_dmg_fall   = "They fell to their death."
-L.search_dmg_boom   = "Their wounds and singed clothes indicate an explosion caused their end."
+L.search_dmg_crush  = "Coś ciężkiego musiało go uderzyć. Jego wnętrzności zostały brutalnie zmiażdżone."
+L.search_dmg_bullet = "To wręcz oczywiste, że został postrzelony na wylot."
+L.search_dmg_fall   = "Musiał upaść z dużej wysokości."
+L.search_dmg_boom   = "Ślady na jego ubraniach wskazują, że musiał być bliskim świadkiem jakiejś eksplozji."
 L.search_dmg_club   = "The body is bruised and battered. Clearly they were clubbed to death."
-L.search_dmg_drown  = "The body shows the telltale signs of drowning."
-L.search_dmg_stab   = "They were stabbed and cut before quickly bleeding to death."
-L.search_dmg_burn   = "Smells like roasted terrorist around here..."
+L.search_dmg_drown  = "Wszystko wskazuje na to, że musiał utonąć."
+L.search_dmg_stab   = "Został zadźgany i pozostawiony na pastwę losu."
+L.search_dmg_burn   = "Hm, coś tu pachnie jak terrorysta na rożnie..."
 L.search_dmg_tele   = "It looks like their DNA was scrambled by tachyon emissions!"
-L.search_dmg_car    = "When this terrorist crossed the road, they were run over by a reckless driver."
-L.search_dmg_other  = "You cannot find a specific cause of this terrorist's death."
+L.search_dmg_car    = "Przechodząc przez jezdnię, mocno musiało biedaka trzepnąć jadące auto."
+L.search_dmg_other  = "Trudno stwierdzić co go tak naprawdę zabiło."
 
-L.search_weapon = "It appears a {weapon} was used to kill them."
-L.search_head   = "The fatal wound was a headshot. No time to scream."
-L.search_time   = "They died roughly {time} before you conducted the search."
-L.search_dna    = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay roughly {time} from now."
+L.search_weapon = "Wygląda na to, że zabito go korzystając z {weapon}"
+L.search_head   = "Dziura na wylot w głowie. Nie miał nawet czasu na krzyk."
+L.search_time   = "Zginął równo {time} przed."
+L.search_dna    = "DNA pozostawione na ciele zniknie za {time}. Lepiej je zebrać korzystając ze skanera DNA."
 
-L.search_kills1 = "You found a list of kills that confirms the death of {player}."
+L.search_kills1 = "Znalazłeś listę osób zabitych przez {player}."
 L.search_kills2 = "You found a list of kills with these names:"
-L.search_eyes   = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
+L.search_eyes   = "Korzystając ze swoich Detektywistycznych superumiejętności dochodzisz do wniosku, że ostatnią osobą jaką widziała ta osoba była: {player}. Zabójca, czy czysty przypadek?"
 
 
 -- Scoreboard
-L.sb_playing    = "You are playing on..."
-L.sb_mapchange  = "Map changes in {num} rounds or in {time}"
+L.sb_playing    = "Obecnie grasz na..."
+L.sb_mapchange  = "Mapa zmieni się za {num} rund lub {time}"
 
-L.sb_mia        = "Missing In Action"
-L.sb_confirmed  = "Confirmed Dead"
+L.sb_mia        = "Zaginiony w Akcji"
+L.sb_confirmed  = "Potwierdzony Zgon"
 
 L.sb_ping       = "Ping"
-L.sb_deaths     = "Deaths"
-L.sb_score      = "Score"
+L.sb_deaths     = "Śmierci"
+L.sb_score      = "Wynik"
 L.sb_karma      = "Karma"
 
-L.sb_info_help  = "Search this player's body, and you can review the results here."
+L.sb_info_help  = "Przeszukaj ciało tej osoby, by zobaczyć w jaki sposób zginęła."
 
-L.sb_tag_friend = "FRIEND"
-L.sb_tag_susp   = "SUSPECT"
-L.sb_tag_avoid  = "AVOID"
-L.sb_tag_kill   = "KILL"
-L.sb_tag_miss   = "MISSING"
+L.sb_tag_friend = "PRZYJAZNY"
+L.sb_tag_susp   = "PODEJRZANY"
+L.sb_tag_avoid  = "UNIKAĆ"
+L.sb_tag_kill   = "ZABIĆ"
+L.sb_tag_miss   = "ZAGINIONY"
 
 --- Help and settings menu (F1)
 
-L.help_title = "Help and Settings"
+L.help_title = "Pomoc i ustawienia"
 
 -- Tabs
-L.help_tut     = "Tutorial"
-L.help_tut_tip = "How TTT works, in 6 steps"
+L.help_tut     = "Poradnik"
+L.help_tut_tip = "Jak działa TTT, w 6 krokach"
 
-L.help_settings = "Settings"
-L.help_settings_tip = "Client-side settings"
+L.help_settings = "Ustawienia"
+L.help_settings_tip = "Osobiste ustawienia"
 
 -- Settings
-L.set_title_gui = "Interface settings"
+L.set_title_gui = "Ustawienia interfejsu"
 
-L.set_tips      = "Show gameplay tips at the bottom of the screen while spectating"
+L.set_tips      = "Pokazuj wskazówki i porady po śmierci na dole ekranu"
 
 L.set_startpopup = "Start of round info popup duration"
 L.set_startpopup_tip = "When the round starts, a small popup appears at the bottom of your screen for a few seconds. Change the time it displays for here."

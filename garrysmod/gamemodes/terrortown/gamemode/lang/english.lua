@@ -69,7 +69,7 @@ L.prev = "Wstecz"
 L.equip_title     = "Ekwipunek"
 L.equip_tabtitle  = "Kup wyposażenie"
 
-L.equip_status    = "Ordering status"
+L.equip_status    = "Status zamówienia"
 L.equip_cost      = "Pozostało ci {num} kredyt(ów)."
 L.equip_help_cost = "Wszystko co kupujesz w sklepie kosztuje jeden kredyt."
 
@@ -92,7 +92,7 @@ L.equip_confirm    = "Kup wyposażenie"
 
 -- Disguiser tab in equipment menu
 L.disg_name      = "Disguiser"
-L.disg_menutitle = "Disguise control"
+L.disg_menutitle = "Obsługa przedmiotu"
 L.disg_not_owned = "Nie posiadasz tego urządzenia!"
 L.disg_enable    = "Aktywuj Disguiser"
 
@@ -101,12 +101,12 @@ L.disg_help2     = "Naciśnij Numpad Enter aby aktywować Disguiser. Możesz ró
 
 -- Radar tab in equipment menu
 L.radar_name      = "Radar"
-L.radar_menutitle = "Radar control"
+L.radar_menutitle = "Obsługa przedmiotu"
 L.radar_not_owned = "Nie posiadasz tego urządzenia!"
 L.radar_scan      = "Przeprowadź skan"
 L.radar_auto      = "Automatyczne skanowanie"
 L.radar_help      = "Wyniki skanowania pozostają na ekranie przez {num} sekund, po których można przeprowadzić następny skan."
-L.radar_charging  = "Skanowanie wciąż w toku!"
+L.radar_charging  = "Skanowanie wciąż trwa!"
 
 -- Transfer tab in equipment menu
 L.xfer_name       = "Transfer Kredytów"
@@ -115,7 +115,7 @@ L.xfer_no_credits = "Nie masz żadnych kredytów do przesłania!"
 L.xfer_send       = "Prześlij kredyt"
 L.xfer_help       = "Możesz wysłać kredyt tylko do kolegi z drużyny."
 
-L.xfer_no_recip   = "Nie znaleziono odbiorcy, anulowano transakcje."
+L.xfer_no_recip   = "Nie znaleziono odbiorcy, anulowano przesył."
 L.xfer_no_credits = "Brak kredytów do wysłania."
 L.xfer_success    = "Ukończono przesyłanie kredytów graczowi {player}."
 L.xfer_received   = "{player} podarował ci {num} kredyt(ów)."
@@ -159,7 +159,7 @@ L.quick_check   = "Ktokolwiek jeszcze żyje?"
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
 L.quick_nobody    = "nikt"
-L.quick_disg      = "ntoś używający Disguisera"
+L.quick_disg      = "ktoś używający Disguisera"
 L.quick_corpse    = "niezidentyfikowane ciało"
 L.quick_corpse_id = "ciało gracza {player}"
 
@@ -201,7 +201,7 @@ L.search_time   = "Zginął równo {time} przed."
 L.search_dna    = "DNA pozostawione na ciele zniknie za {time}. Lepiej je zebrać korzystając ze skanera DNA."
 
 L.search_kills1 = "Znalazłeś listę osób zabitych przez {player}."
-L.search_kills2 = "You found a list of kills with these names:"
+L.search_kills2 = "Znalazłeś listę osób o takich pseudonimach:"
 L.search_eyes   = "Korzystając ze swoich Detektywistycznych superumiejętności dochodzisz do wniosku, że ostatnią osobą jaką widziała ta osoba była: {player}. Zabójca, czy czysty przypadek?"
 
 
@@ -244,34 +244,34 @@ L.set_tips      = "Pokazuj wskazówki i porady po śmierci na dole ekranu"
 L.set_startpopup = "Start of round info popup duration"
 L.set_startpopup_tip = "When the round starts, a small popup appears at the bottom of your screen for a few seconds. Change the time it displays for here."
 
-L.set_cross_opacity   = "Ironsight crosshair opacity"
-L.set_cross_disable   = "Disable crosshair completely"
-L.set_minimal_id      = "Minimalist Target ID under crosshair (no karma text, hints, etc)"
+L.set_cross_opacity   = "Przeźroczystość celownika"
+L.set_cross_disable   = "Całkowicie wyłącz celownik"
+L.set_minimal_id      = "Ukryj dane gracza przy celowaniu (brak karmy, wskazówek, itd.)"
 L.set_healthlabel     = "Show health status label on health bar"
-L.set_lowsights       = "Lower weapon when using ironsights"
-L.set_lowsights_tip   = "Enable to position the weapon model lower on the screen while using ironsights. This will make it easier to see your target, but it will look less realistic."
-L.set_fastsw          = "Fast weapon switch"
-L.set_fastsw_tip      = "Enable to cycle through weapons without having to click again to use weapon. Enable show menu to show switcher menu."
-L.set_fastsw_menu     = "Enable menu with fast weapon switch"
-L.set_fastswmenu_tip  = "When fast weapons switch is enabled, the menu switcher menu will popup."
-L.set_wswitch         = "Disable weapon switch menu auto-closing"
-L.set_wswitch_tip     = "By default the weapon switcher automatically closes a few seconds after you last scroll. Enable this to make it stay up."
-L.set_cues            = "Play sound cue when a round begins or ends"
+L.set_lowsights       = "Ukryj broń przy celowaniu"
+L.set_lowsights_tip   = "Pozwala na pozycjonowanie celownika, przez co widoczność jest lepsza."
+L.set_fastsw          = "Szybka zmiana broni"
+L.set_fastsw_tip      = "Pozwala na zmianę broni bez klikania dwa razy."
+L.set_fastsw_menu     = "Menu zmiany broni"
+L.set_fastswmenu_tip  = "Przy włączonej szybkiej zmianie broni, menu ze zmianą broni pojawi się po prawej stronie."
+L.set_wswitch         = "Wyłącz automatyczne zamykanie menu zmiany broni"
+L.set_wswitch_tip     = "Menu zmiany broni zamyka się automatycznie po jakimś czasie. Włączająć tą opcje zapobiegniesz temu."
+L.set_cues            = "Odtwarzaj dźwięk przy każdym rozpoczęciu i końcu rundy"
 
 
-L.set_title_play    = "Gameplay settings"
+L.set_title_play    = "Ustawienia rozgrywki"
 
-L.set_specmode      = "Spectate-only mode (always stay spectator)"
-L.set_specmode_tip  = "Spectate-only mode will prevent you from respawning when a new round starts, instead you stay Spectator."
-L.set_mute          = "Mute living players when dead"
-L.set_mute_tip      = "Enable to mute living players while you are dead/spectator."
+L.set_specmode      = "Tryb widza (pozostań widzem)"
+L.set_specmode_tip  = "Tryb widza powoduje, że nie pojawiasz się w następnej rundzie, tylko zostajesz przeniesiony do obserwatorów."
+L.set_mute          = "Wycisz żyjących graczy gdy jesteś martwy"
+L.set_mute_tip      = "Pozwala na wyciszenie graczy grających po twojej śmierci."
 
 
-L.set_title_lang    = "Language settings"
+L.set_title_lang    = "Ustawienia języka"
 
 -- It may be best to leave this next one english, so english players can always
 -- find the language setting even if it's set to a language they don't know.
-L.set_lang          = "Select language:"
+L.set_lang          = "Wybierz język:"
 
 
 --- Weapons and equipment, HUD and messages
@@ -279,331 +279,327 @@ L.set_lang          = "Select language:"
 -- Equipment actions, like buying and dropping
 L.buy_no_stock    = "This weapon is out of stock: you already bought it this round."
 L.buy_pending     = "You already have an order pending, wait until you receive it."
-L.buy_received    = "You have received your special equipment."
+L.buy_received    = "Otrzymałeś swoje wyposażenie."
 
-L.drop_no_room    = "You have no room here to drop your weapon!"
+L.drop_no_room    = "Brak miejsca na wyrzucenie broni!"
 
-L.disg_turned_on  = "Disguise enabled!"
-L.disg_turned_off = "Disguise disabled."
+L.disg_turned_on  = "Disguiser aktywowany!"
+L.disg_turned_off = "Disguiser dezaktywowany."
 
 -- Equipment item descriptions
-L.item_passive    = "Passive effect item"
-L.item_active     = "Active use item"
-L.item_weapon     = "Weapon"
+L.item_passive    = "Przedmiot pasywny"
+L.item_active     = "Przedmiot aktywowalny"
+L.item_weapon     = "Broń"
 
-L.item_armor      = "Body Armor"
+L.item_armor      = "Kamizelka kuloodporna"
 L.item_armor_desc = [[
-Reduces bullet damage by 30% when
-you get hit.
+Redukuje obrażenia od pocisków do 30% gdy 
+zostajesz postrzelony.
 
-Default equipment for Detectives.]]
+Przedmiot domyślny dla detektywa.]]
 
 L.item_radar      = "Radar"
 L.item_radar_desc = [[
-Allows you to scan for life signs.
+Pozwala na skanowanie żyjących istot.
 
-Starts automatic scans as soon as you
-buy it. Configure it in Radar tab of this
-menu.]]
+Skany są przeprowadzane automatycznie po kupieniu wyposażenia. 
+Możesz to skonfigurować w menu radaru.]]
 
 L.item_disg       = "Disguiser"
 L.item_disg_desc  = [[
-Hides your ID info while on. Also avoids
-being the person last seen by a victim.
+Ukrywa twoją tożsamość (nick, karma, zdrowie) 
+Pozwala też na ukrycie przed radarem.
 
-Toggle in the Disguise tab of this menu
-or press Numpad Enter.]]
+Domyślny przycisk - NUMPAD Enter.]]
 
 -- C4
-L.c4_hint         = "Press {usekey} to arm or disarm."
-L.c4_no_disarm    = "You cannot disarm another Traitor's C4 unless they are dead."
-L.c4_disarm_warn  = "A C4 explosive you planted has been disarmed."
-L.c4_armed        = "You have successfully armed the bomb."
-L.c4_disarmed     = "You have successfully disarmed the bomb."
-L.c4_no_room      = "You cannot carry this C4."
+L.c4_hint         = "Naciśnij {usekey} żeby uzbroić lub rozbroić."
+L.c4_no_disarm    = "Nie możesz rozbroić C4 innego Zdrajcy dopóki nie będzie martwy."
+L.c4_disarm_warn  = "Twoje C4 zostało rozbrojone."
+L.c4_armed        = "Pomyślnie uzbroiłeś C4."
+L.c4_disarmed     = "Pomyślnie rozbroiłeś C4."
+L.c4_no_room      = "Nie możesz podnieść tego C4."
 
-L.c4_desc         = "Powerful timed explosive."
+L.c4_desc         = "Potężna bomba czasowa."
 
-L.c4_arm          = "Arm C4"
-L.c4_arm_timer    = "Timer"
-L.c4_arm_seconds  = "Seconds until detonation:"
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm          = "Uzbrój C4"
+L.c4_arm_timer    = "Czas (w sekundach)"
+L.c4_arm_seconds  = "Pozostały czas do detonacji:"
+L.c4_arm_attempts = "Przy próbie rozbrojenia, {num} z 6 kabelków spowoduje natychmiastową eksplozję."
 
-L.c4_remove_title    = "Removal"
-L.c4_remove_pickup   = "Pick up C4"
-L.c4_remove_destroy1 = "Destroy C4"
-L.c4_remove_destroy2 = "Confirm: destroy"
+L.c4_remove_title    = "Usunięcie C4"
+L.c4_remove_pickup   = "Podnieś C4"
+L.c4_remove_destroy1 = "Zniszcz C4"
+L.c4_remove_destroy2 = "Potwierdź zniszczenie C4"
 
-L.c4_disarm       = "Disarm C4"
-L.c4_disarm_cut   = "Click to cut wire {num}"
+L.c4_disarm       = "Rozbrój C4"
+L.c4_disarm_cut   = "Naciśnij by przeciąć kabelek {num}"
 
-L.c4_disarm_t     = "Cut a wire to disarm the bomb. As you are Traitor, every wire is safe. Innocents don't have it so easy!"
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it."
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong!"
+L.c4_disarm_t     = "Przetnij odpowiedni kabelek, by rozbroić bombe. Jako zdrajca potrafisz bezproblemowo rozbrajać bomby. Niewinni muszą się pomęczyć!"
+L.c4_disarm_owned = "Przetnij kabelek, by rozbroić bombe. To twoja bomba, więc każdy kabelek ją rozbroi."
+L.c4_disarm_other = "Przetnij odpowiedni kabelek, by rozbroić bombe. Jeśli źle trafisz, bomba wybuchnie!"
 
-L.c4_status_armed    = "ARMED"
-L.c4_status_disarmed = "DISARMED"
+L.c4_status_armed    = "UZBROJONA"
+L.c4_status_disarmed = "ROZBROJONA"
 
 -- Visualizer
 L.vis_name        = "Visualizer"
-L.vis_hint        = "Press {usekey} to pick up (Detectives only)."
+L.vis_hint        = "Naciśnij {usekey} aby podnieść (Podnieść może tylko Detektyw)."
 
-L.vis_help_pri    = "{primaryfire} drops the activated device."
+L.vis_help_pri    = "{primaryfire} wyrzuca aktywny przedmiot na ziemię."
 
 L.vis_desc        = [[
-Crime scene visualization device.
+Urządzenie wprost detektywistyczne.
 
-Analyzes a corpse to show how
-the victim was killed, but only if
-they died of gunshot wounds.]]
+Bada sposób w jaki dana osoba została zabita,
+ale tylko jeśli została zabita z broni palnej.]]
 
 -- Decoy
-L.decoy_name      = "Decoy"
-L.decoy_no_room   = "You cannot carry this decoy."
-L.decoy_broken    = "Your Decoy has been destroyed!"
+L.decoy_name      = "Wabik"
+L.decoy_no_room   = "Nie możesz posiadać tego wabika."
+L.decoy_broken    = "Twój wabik został zniszczony!"
 
-L.decoy_help_pri  = "{primaryfire} plants the Decoy."
+L.decoy_help_pri  = "{primaryfire} uzbraja Wabik."
 
 L.decoy_desc      = [[
-Shows a fake radar sign to detectives,
-and makes their DNA scanner show the
-location of the Decoy if they scan for
-your DNA.]]
+Pokazuje fałszywy skan Radaru,
+oraz wskazuje DNA pobrane z ciała wprost
+na Wabik, a nie na ciebie.]]
 
 -- Defuser
-L.defuser_name    = "Defuser"
-L.defuser_help    = "{primaryfire} defuses targeted C4."
+L.defuser_name    = "Zestaw do rozbrajania"
+L.defuser_help    = "{primaryfire} rozbraja uzborojoną C4."
 
 L.defuser_desc    = [[
-Instantly defuse a C4 explosive.
+Natychmiastowo rozbraja C4.
 
-Unlimited uses. C4 will be easier to
-notice if you carry this.]]
+Nieskończona ilość użyć. Dzięki temu zestawowi
+łatwiej jest usłyszeć pikanie bomby.]]
 
 -- Flare gun
-L.flare_name      = "Flare gun"
+L.flare_name      = "Raca"
 L.flare_desc      = [[
-Can be used to burn corpses so that
-they are never found. Limited ammo.
+Pozwala na spalenie ciała, przez co
+nie da się go nawet znaleźć.
 
-Burning a corpse makes a distinct
-sound.]]
+Palące się ciało wydaje skwierczący dźwięk.]]
 
 -- Health station
 L.hstation_name   = "Health Station"
-L.hstation_hint   = "Press {usekey} to receive health. Charge: {num}."
-L.hstation_broken = "Your Health Station has been destroyed!"
-L.hstation_help   = "{primaryfire} places the Health Station."
+L.hstation_hint   = "Naciśnij {usekey} aby się uzdrowić. Ilość ładunków: {num}."
+L.hstation_broken = "Twoje Health Station zostało zniszczone!"
+L.hstation_help   = "{primaryfire} stawia Health Station."
 
 L.hstation_desc   = [[
-Allows people to heal when placed.
+Pozwala na leczenie się każdemu 
+kto z niego skorzysta.
 
-Slow recharge. Anyone can use it, and
-it can be damaged. Can be checked for
-DNA samples of its users.]]
+Powoli się ładuje. Może zostać zniszczone,
+dodatkowo można pobrać DNA ludzi którzy z niego
+korzystali.]]
 
 -- Knife
-L.knife_name      = "Knife"
-L.knife_thrown    = "Thrown knife"
+L.knife_name      = "Nóż"
+L.knife_thrown    = "Wyrzucony nóż"
 
 L.knife_desc      = [[
-Kills wounded targets instantly and
-silently, but only has a single use.
+Zabija graczy natychmiastowo, ale tylko raz.
 
-Can be thrown using alternate fire.]]
+Można nim rzucić klikająć PPM.]]
 
 -- Poltergeist
 L.polter_desc     = [[
-Plants thumpers on objects to shove
-them around violently.
+Przyczepia do propa granat, który
+miota przedmiotem w losowe strony.
 
-The energy bursts damage people in
-close proximity.]]
+Każdy wybuch granatu zadaje obrażenia
+graczom w pobliżu.]]
 
 -- Radio
-L.radio_broken    = "Your Radio has been destroyed!"
-L.radio_help_pri  = "{primaryfire} places the Radio."
+L.radio_broken    = "Twoje Radio zostało znisczone!"
+L.radio_help_pri  = "{primaryfire} stawia Radio."
 
 L.radio_desc      = [[
-Plays sounds to distract or deceive.
+Potrafi wydawać mylące dla graczy dźwięki.
 
-Place the radio somewhere, and then
-play sounds on it using the Radio tab
-in this menu.]]
+Postaw Radio gdziekolwiek na mapie, i
+puść jakiś odgłos z Menu przedmiotu.]]
 
 -- Silenced pistol
-L.sipistol_name   = "Silenced Pistol"
+L.sipistol_name   = "Pistolet z tłumikiem"
 
 L.sipistol_desc   = [[
-Low-noise handgun, uses normal pistol
-ammo.
+Bardzo cichy pisolet, korzysta ze zwykłej
+ammunicji do pistoletu.
 
-Victims will not scream when killed.]]
+Ofiary nawet nie będą w stanie krzyknąć.]]
 
 -- Newton launcher
-L.newton_name     = "Newton launcher"
+L.newton_name     = "Wyrzutnia Newtona"
 
 L.newton_desc     = [[
-Push people from a safe distance.
+Pozwala na zepchnięcie ludzi z 
+bezpiecznego dystansu.
 
-Infinite ammo, but slow to fire.]]
+Nieskończona amunicja, ale powolne przeładowanie.]]
 
 -- Binoculars
-L.binoc_name      = "Binoculars"
+L.binoc_name      = "Lornetka"
 L.binoc_desc      = [[
-Zoom in on corpses and identify them
-from a long distance away.
+Pozwala na zidentyfikowanie ciała z
+bezpiecznej odległości.
 
-Unlimited uses, but identification
-takes a few seconds.]]
+Nieskończona ilość użyć, ale badanie ciała
+zajmuje trochę czasu.]]
 
-L.binoc_help_pri  = "{primaryfire} identifies a body."
-L.binoc_help_sec  = "{secondaryfire} changes zoom level."
+L.binoc_help_pri  = "{primaryfire} identyfikuje ciało."
+L.binoc_help_sec  = "{secondaryfire} zmienia przybliżenie lornetki."
 
 -- UMP
 L.ump_desc        = [[
-Experimental SMG that disorients
-targets.
+Zmodyfikowane UMP które ogłusza przeciwników.
 
-Uses standard SMG ammo.]]
+Korzysta z amunicji do karabinu
+półautomatycznego.]]
 
 -- DNA scanner
-L.dna_name        = "DNA scanner"
-L.dna_identify    = "Corpse must be identified to retrieve killer's DNA."
-L.dna_notfound    = "No DNA sample found on target."
-L.dna_limit       = "Storage limit reached. Remove old samples to add new ones."
-L.dna_decayed     = "DNA sample of the killer has decayed."
-L.dna_killer      = "Collected a sample of the killer's DNA from the corpse!"
-L.dna_no_killer   = "The DNA could not be retrieved (killer disconnected?)."
-L.dna_armed       = "This bomb is live! Disarm it first!"
-L.dna_object      = "Collected {num} new DNA sample(s) from the object."
-L.dna_gone        = "DNA not detected in area."
+L.dna_name        = "Skaner DNA"
+L.dna_identify    = "Ciało musi być zidentyfikowane żeby móc pobrać z niego DNA."
+L.dna_notfound    = "Nie znaleziono próbki DNA na ciele ofiary."
+L.dna_limit       = "Osiągnięto limit próbek. Usuń poprzednie próbki, by dodać nowe."
+L.dna_decayed     = "DNA zabójcy zniknęło z ciała."
+L.dna_killer      = "Pobrano próbke DNA z ciała ofiary!"
+L.dna_no_killer   = "Nie można pobrać próbki DNA zabójcy (Zabójca wyszedł z serwera?)."
+L.dna_armed       = "Rozbrój bombe przed pobraniem próbki DNA!"
+L.dna_object      = "Pobrano {num} nowych próbek DNA z przedmiotu."
+L.dna_gone        = "Brak DNA w pobliżu."
 
 L.dna_desc        = [[
-Collect DNA samples from things
-and use them to find the DNA's owner.
+Pobieraj próbki DNA z ciał lub przedmiotów
+by wskazać położenie sprawcy zbrodni.
 
-Use on fresh corpses to get the killer's DNA
-and track them down.]]
+Używaj DNA ze świeżo zabitych graczy,
+by zlokalizować zabójcę.]]
 
-L.dna_menu_title  = "DNA scanning controls"
-L.dna_menu_sample = "DNA sample found on {source}"
-L.dna_menu_remove = "Remove selected"
-L.dna_menu_help1  = "These are DNA samples you have collected."
+L.dna_menu_title  = "DNA-TRONIC 3000"
+L.dna_menu_sample = "Próbka DNA znaleziona na {source}"
+L.dna_menu_remove = "Usuń zaznaczone"
+L.dna_menu_help1  = "Tu znajdują się wszystkie próbki DNA."
 L.dna_menu_help2  = [[
-When charged, you can scan for the location of
-the player the selected DNA sample belongs to.
-Finding distant targets drains more energy.]]
+Skaner DNA wymaga energii do działania
+Im dalej znajduje się dana osoba, tym dłużej
+będzie trwało skanowanie.]]
 
-L.dna_menu_scan   = "Scan"
-L.dna_menu_repeat = "Auto-repeat"
-L.dna_menu_ready  = "READY"
-L.dna_menu_charge = "CHARGING"
-L.dna_menu_select = "SELECT SAMPLE"
+L.dna_menu_scan   = "Skanuj"
+L.dna_menu_repeat = "Automatyczne skanowanie"
+L.dna_menu_ready  = "GOTOWE"
+L.dna_menu_charge = "ŁADOWANIE"
+L.dna_menu_select = "WYBIERZ PRÓBKĘ DNA"
 
-L.dna_help_primary   = "{primaryfire} to collect a DNA sample"
-L.dna_help_secondary = "{secondaryfire} to open scan controls"
+L.dna_help_primary   = "Naciśnij {primaryfire} aby pobrać próbkę"
+L.dna_help_secondary = "{secondaryfire} otwiera menu Skanera"
 
 -- Magneto stick
-L.magnet_name     = "Magneto-stick"
-L.magnet_help     = "{primaryfire} to attach body to surface."
+L.magnet_name     = "Magneto-pałka"
+L.magnet_help     = "{primaryfire} przywiesza ciało do powierzchni."
 
 -- Grenades and misc
-L.grenade_smoke   = "Smoke grenade"
-L.grenade_fire    = "Incendiary grenade"
+L.grenade_smoke   = "Granat dymny"
+L.grenade_fire    = "Granat zapalający"
 
-L.unarmed_name    = "Holstered"
-L.crowbar_name    = "Crowbar"
-L.pistol_name     = "Pistol"
-L.rifle_name      = "Rifle"
+L.unarmed_name    = "Bezbronny"
+L.crowbar_name    = "Łom"
+L.pistol_name     = "Pistolet"
+L.rifle_name      = "Karabin snajperski"
 L.shotgun_name    = "Shotgun"
 
 -- Teleporter
 L.tele_name       = "Teleporter"
-L.tele_failed     = "Teleport failed."
-L.tele_marked     = "Teleport location marked."
+L.tele_failed     = "Nie udało się teleportować."
+L.tele_marked     = "Wybrano cel teleportacji."
 
-L.tele_no_ground  = "Cannot teleport unless standing on solid ground!"
-L.tele_no_crouch  = "Cannot teleport while crouched!"
-L.tele_no_mark    = "No location marked. Mark a destination before teleporting."
+L.tele_no_ground  = "Teleportacja działa tylko na powierzchni!"
+L.tele_no_crouch  = "Nie można się teleportować skradając!"
+L.tele_no_mark    = "Brak celu teleportacji. Musisz wybrać cel teleportacji."
 
-L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
-L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
+L.tele_no_mark_ground = "Cel teleportacji można zaznaczyć tylko na powierzchni!"
+L.tele_no_mark_crouch = "Nie można ustawić celu teleportacji skradając!"
 
-L.tele_help_pri   = "{primaryfire} teleports to marked location."
-L.tele_help_sec   = "{secondaryfire} marks current location."
+L.tele_help_pri   = "{primaryfire} teleportuje cię w daną lokację."
+L.tele_help_sec   = "{secondaryfire} zaznacza cel teleportacji."
 
 L.tele_desc       = [[
-Teleport to a previously marked spot.
+Pozwala na teleportację do danej lokacji.
 
-Teleporting makes noise, and the
-number of uses is limited.]]
+Proces teleportacji jest głośny,
+a sam teleporter ma ograniczoną
+ilość użyć.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol     = "9mm ammo"
+L.ammo_pistol     = "Amunicja do pistoletu"
 
-L.ammo_smg1       = "SMG ammo"
-L.ammo_buckshot   = "Shotgun ammo"
-L.ammo_357        = "Rifle ammo"
-L.ammo_alyxgun    = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity    = "Poltergeist ammo"
+L.ammo_smg1       = "Amunicja karabinu półautomatycznego"
+L.ammo_buckshot   = "Amunicja shotguna"
+L.ammo_357        = "Amunicja karabinu snajperskiego"
+L.ammo_alyxgun    = "Amunicja ciężkiego pistoletu"
+L.ammo_ar2altfire = "Race"
+L.ammo_gravity    = "Granaty grawitacyjne"
 
 
 --- HUD interface text
 
 -- Round status
-L.round_wait   = "Waiting"
-L.round_prep   = "Preparing"
-L.round_active = "In progress"
-L.round_post   = "Round over"
+L.round_wait   = "Oczekiwanie"
+L.round_prep   = "Faca przygotowywawcza"
+L.round_active = "W trakcie"
+L.round_post   = "Koniec rundy"
 
 -- Health, ammo and time area
-L.overtime     = "OVERTIME"
-L.hastemode    = "HASTE MODE"
+L.overtime     = "DOGRYWKA"
+L.hastemode    = "NORMALNA GRA"
 
 -- TargetID health status
-L.hp_healthy   = "Healthy"
-L.hp_hurt      = "Hurt"
-L.hp_wounded   = "Wounded"
-L.hp_badwnd    = "Badly Wounded"
-L.hp_death     = "Near Death"
+L.hp_healthy   = "Zdrowy"
+L.hp_hurt      = "Uszkodzony"
+L.hp_wounded   = "Ranny"
+L.hp_badwnd    = "Ciężko ranny"
+L.hp_death     = "Bliski śmierci"
 
 
 -- TargetID karma status
-L.karma_max    = "Reputable"
-L.karma_high   = "Crude"
-L.karma_med    = "Trigger-happy"
-L.karma_low    = "Dangerous"
-L.karma_min    = "Liability"
+L.karma_max    = "Zaufany"
+L.karma_high   = "Bezpieczny"
+L.karma_med    = "Nieodpowiedzialny"
+L.karma_low    = "Niebezpieczny"
+L.karma_min    = "Szalony"
 
 -- TargetID misc
-L.corpse       = "Corpse"
-L.corpse_hint  = "Press {usekey} to search. {walkkey} + {usekey} to search covertly."
+L.corpse       = "Ciało"
+L.corpse_hint  = "Naciśnij {usekey} aby przeszukać ciało. {walkkey} + {usekey} by przeszukać po cichu."
 
-L.target_disg  = " (DISGUISED)"
-L.target_unid  = "Unidentified body"
+L.target_disg  = "INCOGNITO"
+L.target_unid  = "Niezidentyfikowane ciało"
 
-L.target_traitor = "FELLOW TRAITOR"
-L.target_detective = "DETECTIVE"
+L.target_traitor = "INNY ZDRAJCA"
+L.target_detective = "DETEKTYW"
 
-L.target_credits = "Search to receive unspent credits"
+L.target_credits = "Przeszukaj w poszukiwaniu niewydanych kredytów"
 
 -- Traitor buttons (HUD buttons with hand icons that only traitors can see)
-L.tbut_single  = "Single use"
-L.tbut_reuse   = "Reusable"
-L.tbut_retime  = "Reusable after {num} sec"
-L.tbut_help    = "Press {key} to activate"
+L.tbut_single  = "Jednorazowe"
+L.tbut_reuse   = "Wielokrotnego użytku"
+L.tbut_retime  = "Można ponownie aktywować za {num} sekund"
+L.tbut_help    = "Naciśnij {key} by aktywować"
 
 -- Equipment info lines (on the left above the health/ammo panel)
-L.disg_hud     = "Disguised. Your name is hidden."
-L.radar_hud    = "Radar ready for next scan in: {time}"
+L.disg_hud     = "Incognito. Informacje o tobie są ukryte"
+L.radar_hud    = "Następne skanowanie odbędzie się za: {time} sekund"
 
 -- Spectator muting of living/dead
-L.mute_living  = "Living players muted"
-L.mute_specs   = "Spectators muted"
-L.mute_all     = "All muted"
-L.mute_off     = "None muted"
+L.mute_living  = "Wyciszono żyjących graczy"
+L.mute_specs   = "Wyciszono obserwatorów i martwych graczy"
+L.mute_all     = "Wyciszono wszystkich"
+L.mute_off     = "Nikogo nie wyciszono"
 
 -- Spectators and prop possession
 L.punch_title  = "PUNCH-O-METER"
@@ -617,30 +613,30 @@ L.spec_help    = "Click to spectate players, or press {usekey} on a physics obje
 
 -- These are spread over multiple lines, hence the square brackets instead of
 -- quotes. That's a Lua thing. Every line break (enter) will show up in-game.
-L.info_popup_innocent = [[You are an innocent Terrorist! But there are traitors around...
-Who can you trust, and who is out to fill you with bullets?
+L.info_popup_innocent = [[Jesteś niewinnym terrorystą! Tylko komu tu zaufać...
+Kto ci pomoże, a kto wpakuje w ciebie serie kul?
 
-Watch your back and work with your comrades to get out of this alive!]]
+Obserwuj innych i poprowadź terrorystów do zwycięstwa!]]
 
-L.info_popup_detective = [[You are a Detective! Terrorist HQ has given you special resources to find the traitors.
-Use them to help the innocent survive, but be careful:
-the traitors will be looking to take you down first!
+L.info_popup_detective = [[Jesteś detektywem! Oddano w twoje ręce specjalny sprzęt detektywistyczny.
+Użyj go, by wesprzeć niewinnych w wyeliminowaniu zdrajców, ale uważaj:
+jesteś pierwszym celem do zabicia przez zdrajców!
 
-Press {menukey} to receive your equipment!]]
+Naciśnij {menukey} by otworzyć sklep!]]
 
-L.info_popup_traitor_alone = [[You are a TRAITOR! You have no fellow traitors this round.
+L.info_popup_traitor_alone = [[Jesteś zdrajcą! Niestety, jedynym zdrajcą na tę rundę.
 
-Kill all others to win!
+Zabij wszystkich niewinnych by wygrać!
 
-Press {menukey} to receive your special equipment!]]
+Naciśnij {menukey} by otworzyć sklep!]]
 
-L.info_popup_traitor = [[You are a TRAITOR! Work with fellow traitors to kill all others.
-But take care, or your treason may be discovered...
+L.info_popup_traitor = [[Jesteś zdrajcą! Współpracuj z innymi zdrajcami, by wygrać
+tę rundę!
 
-These are your comrades:
+Oto twoi współtowarzysze:
 {traitorlist}
 
-Press {menukey} to receive your special equipment!]]
+Naciśnij {menukey} by otworzyć sklep!]]
 
 --- Various other text
 L.name_kick = "A player was automatically kicked for changing their name during a round."
@@ -649,12 +645,12 @@ L.idle_popup = [[You were idle for {num} seconds and were moved into Spectator-o
 
 You can toggle Spectator-only mode at any time by pressing {helpkey} and unchecking the box in the Settings tab. You can also choose to disable it right now.]]
 
-L.idle_popup_close = "Do nothing"
-L.idle_popup_off   = "Disable Spectator-only mode now"
+L.idle_popup_close = "Nie rób nic"
+L.idle_popup_off   = "Wyłącz tryb widza"
 
-L.idle_warning = "Warning: you appear to be idle/AFK, and will be made to spectate unless you show activity!"
+L.idle_warning = "Uwaga: Wygląda na to, że jesteś AFK! Jeśli niczego nie zrobisz, zostaniesz przeniesiony do obserwatorów."
 
-L.spec_mode_warning = "You are in Spectator Mode and will not spawn when a round starts. To disable this mode, press F1, go to Settings and uncheck 'Spectate-only mode'."
+L.spec_mode_warning = "Automatycznie włączono tryb widza z powodu twojego braku aktywności. Możesz go wyłączyć, wchodząc w menu pod klawiszem F1."
 
 
 --- Tips, shown at bottom of screen to spectators

@@ -1,6 +1,6 @@
 ---- English language strings
 
-local L = LANG.CreateLanguage("English")
+local L = LANG.CreateLanguage("Polski")
 
 --- General text used in various places
 L.traitor    = "Zdrajca"
@@ -656,238 +656,238 @@ L.spec_mode_warning = "Automatycznie włączono tryb widza z powodu twojego brak
 --- Tips, shown at bottom of screen to spectators
 
 -- Tips panel
-L.tips_panel_title = "Tips"
-L.tips_panel_tip   = "Tip:"
+L.tips_panel_title = "Wskazówki"
+L.tips_panel_tip   = "Wskazówki:"
 
 -- Tip texts
 
-L.tip1 = "Traitors can search a corpse silently, without confirming the death, by holding {walkkey} and pressing {usekey} on the corpse."
+L.tip1 = "Zdrajcy mogą zbadać ciało bez powiadamiania o tym innych. Naciśnij po kolei {walkkey} i {usekey} na ciele, by je zbadać po cichu."
 
-L.tip2 = "Arming a C4 explosive with a longer timer will increase the number of wires that cause it to explode instantly when an innocent attempts to disarm it. It will also beep softer and less often."
+L.tip2 = "Uzbrajanie C4 na dłuższy czas niż 45 sekund zmniejsza prawdopodobieństwo rozbrojenia ładunku przez innych. Dodatkowo, pikanie bomby słychać rzadziej niż normalnie."
 
-L.tip3 = "Detectives can search a corpse to find who is 'reflected in its eyes'. This is the last person the dead guy saw. That does not have to be the killer if they were shot in the back."
+L.tip3 = "Umiejętność detektywa pozwala mu na zobaczenie oczami ofiary tuż przed śmiercią. Dzięki temu można się dowiedzieć kogo ostatniego ofiara widziała. Niekoniecznie musi to być Zdrajca, jeśli ofiara została postrzelona w plecy..."
 
-L.tip4 = "No one will know you have died until they find your dead body and identify you by searching it."
+L.tip4 = "Nikt nie dowie się o twojej śmierci dopóki ktoś nie znajdzie twojego ciała."
 
-L.tip5 = "When a Traitor kills a Detective, they instantly receive a credit reward."
+L.tip5 = "Kiedy Detektyw umiera, Zdrajcy automatycznie otrzymują nagrodę w postaci jednego kredytu."
 
-L.tip6 = "When a Traitor dies, all Detectives are rewarded equipment credits."
+L.tip6 = "Kiedy Zdrajca umiera, Detektywi automatycznie otrzymują nagrodę w postaci jednego kredytu."
 
-L.tip7 = "When the Traitors have made significant progress in killing innocents, they will receive an equipment credit as reward."
+L.tip7 = "Jeśli Zdrajca zabije imponującą ilość Niewinnych, otrzymuje on nagrodę w postaci jednego kredytu za postęp w grze."
 
-L.tip8 = "Traitors and Detectives can collect unspent equipment credits from the dead bodies of other Traitors and Detectives."
+L.tip8 = "Zdrajcy i Detektywi mogą podnosić niewykorzystane kredyty z ciał innych Detektywów i Zdrajców."
 
-L.tip9 = "The Poltergeist can turn any physics object into a deadly projectile. Each punch is accompanied by a blast of energy hurting anyone nearby."
+L.tip9 = "Poltergeist potrafi zmienić zwykły prop w zabójczą broń. Wystarczy przyczepić granat grawitacyjny do przedmiotu!"
 
-L.tip10 = "As Traitor or Detective, keep an eye on red messages in the top right. These will be important for you."
+L.tip10 = "Jako Zdrajca albo Detektyw, zwracaj uwagę na informacje wyświetlane w rogu ekranu."
 
-L.tip11 = "As Traitor or Detective, keep in mind you are rewarded extra equipment credits if you and your comrades perform well. Make sure you remember to spend them!"
+L.tip11 = "Pamiętaj aby wydawać kredyty w rozsądny sposób, gdyż nie ma sposobu na zwrócenie kredytów po zakupie przedmiotu!"
 
-L.tip12 = "The Detectives' DNA Scanner can be used to gather DNA samples from weapons and items and then scan to find the location of the player who used them. Useful when you can get a sample from a corpse or a disarmed C4!"
+L.tip12 = "Pamiętaj by korzystać ze Skanera DNA. Potrafi on bardzo szybko wskazać osobę odpowiedzialną za zabicie drugiej, lub za podłożenie bomby!"
 
-L.tip13 = "When you are close to someone you kill, some of your DNA is left on the corpse. This DNA can be used with a Detective's DNA Scanner to find your current location. Better hide the body after you knife someone!"
+L.tip13 = "Zabijając kogoś z bliskiego dystansu pozostawiasz na ciele próbki swojego DNA. Pomoże to Detektywowi namierzyć twoja pozycję. Lepiej ukryć ciało zaraz po zabiciu kogoś!"
 
-L.tip14 = "The further you are away from someone you kill, the faster your DNA sample on their body will decay."
+L.tip14 = "Wraz z dystansem z jakiego kogoś zabiłeś zmiejsza się czas jaki Detektywowie mają na zebranie próbek DNA. Zabijanie z dalekich dystansów w ogóle nie pozostawia DNA."
 
-L.tip15 = "Are you Traitor and going sniping? Consider trying out the Disguiser. If you miss a shot, run away to a safe spot, disable the Disguiser, and no one will know it was you who was shooting at them."
+L.tip15 = "Lubisz zabijać po cichu? Przemyśl zakup Disguisera, pomoże ci on się ukryć zaraz po zabiciu kogoś, przez co trudniej cię zidentyfikować."
 
-L.tip16 = "As Traitor, the Teleporter can help you escape when chased, and allows you to quickly travel across a big map. Make sure you always have a safe position marked."
+L.tip16 = "Teleporter to świetna rzecz do szybkiego uciekania lub przemieszczania się po mapie. Należy pamiętać tylko, że dźwięk teleportacji jest głośny, a miejsce do którego się teleportujemy zostawia ślad!"
 
-L.tip17 = "Are the innocents all grouped up and hard to pick off? Consider trying out the Radio to play sounds of C4 or a firefight to lead some of them away."
+L.tip17 = "Jeśli masz problemy z zabiciem Niewinnych gdy są zgrupowani, postaraj się ich jakoś rozdzielić, by łatwiej można było ich powybijać."
 
-L.tip18 = "Using the Radio as Traitor, you can play sounds through your Equipment Menu after the radio has been placed. Queue up multiple sounds by clicking multiple buttons in the order you want them."
+L.tip18 = "Radio pozwala na emisję dźwięków które wręcz mogą zmylić uszy Niewinnych i Detektywów."
 
-L.tip19 = "As Detective, if you have leftover credits you could give a trusted Innocent a Defuser. Then you can spend your time doing the serious investigative work and leave the risky bomb defusal to them."
+L.tip19 = "Masz za dużo kredytów jako Detektyw? Przemyśl kupno uzbrojenia dla zaufanych Niewinnych, dzięki temu łatwiej będzie można pozbyć się Zdrajców."
 
-L.tip20 = "The Detectives' Binoculars allow long-range searching and identifying of corpses. Bad news if the Traitors were hoping to use a corpse as bait. Of course, while using the Binoculars a Detective is unarmed and distracted..."
+L.tip20 = "Lornetka to doskonałe urządzenie do badania ciał z nawet bardzo dalekich dystansów, jedyną wadą urządzenia jest czas badania ciała..."
 
-L.tip21 =  "The Detectives' Health Station lets wounded players recover. Of course, those wounded people could be Traitors..."
+L.tip21 = "Health Station pozwala na uleczenie się każdemu kto z niego korzysta. I mówiąc każdemu, mam na myśli nawet Zdrajcom..."
 
-L.tip22 = "The Health Station records a DNA sample of everyone who uses it. Detectives can use this with the DNA Scanner to find out who has been healing up."
+L.tip22 = "Health Station zawiera w sobie próbkę DNA każdego kto z niego korzystał. Warto to mieć na uwadzę, jeśli masz podejrzenia że któryś Zdrajca mógł z niego skorzystać."
 
-L.tip23 = "Unlike weapons and C4, the Radio equipment for Traitors does not contain a DNA sample of the person who planted it. Don't worry about Detectives finding it and blowing your cover."
+L.tip23 = "Radio jako jedyne wyposażenie nie pozostawia twoich śladów DNA, więc nie musisz się martwić że ktoś je znajdzie i cię zabije."
 
-L.tip24 = "Press {helpkey} to view a short tutorial or modify some TTT-specific settings. For example, you can permanently disable these tips there."
+L.tip24 = "Naciśnij {helpkey} aby otworzyć krótki poradnik do trybu TTT. Pod tym klawiszem znajdują się również ustawienia które możesz zmieniać dowolnie."
 
-L.tip25 = "When a Detective searches a body, the result is available to all players via the scoreboard by clicking on the name of the dead person."
+L.tip25 = "Gdy Detektyw zbada ciało, wszyscy otrzymają powiadomienie z informacjami na temat sposobu zabicia."
 
-L.tip26 = "In the scoreboard, a magnifying glass icon next to someone's name indicates you have search information about that person. If the icon is bright, the data comes from a Detective and may contain additional information."
+L.tip26 = "Na tabeli wyników, ikonka lupy wskazuje czy ciało zostało zbadane czy nie."
 
-L.tip27 = "As Detective, corpses with a magnifying glass after the nickname have been searched by a Detective and their results are available to all players via the scoreboard."
+L.tip27 = "Ikona lupy na tabeli wyników pozwala rozwinąć informacje na temat zbadanego przez Detektywa ciała dla każdego żyjącego gracza."
 
-L.tip28 = "Spectators can press {mutekey} to cycle through muting other spectators or living players."
+L.tip28 = "Obserwatorzy przy użyciu {mutekey} mogą wyciszyć żyjących lub obserwujących grę graczy."
 
-L.tip29 = "If the server has installed additional languages, you can switch to a different language at any time in the Settings menu."
+L.tip29 = "Jeśli serwer posiada dodatkowe języki, możesz je szybko zmienić w ustawieniach pod klawiszem {helpkey}."
 
-L.tip30 = "Quickchat or 'radio' commands can be used by pressing {zoomkey}."
+L.tip30 = "Menu szybkich odpowiedzi może zostać otworzone przy pomocy {zoomkey}."
 
-L.tip31 = "As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview."
+L.tip31 = "W trybie widza, {duckkey} pozwala na odblokowanie kursora myszki i nawigację po tabeli wyników."
 
-L.tip32 = "The Crowbar's secondary fire will push other players."
+L.tip32 = "Możesz popchnąć gracza na krótki dystans łomem przy użyciu PPM."
 
-L.tip33 = "Firing through the ironsights of a weapon will slightly increase your accuracy and decrease recoil. Crouching does not."
+L.tip33 = "Kucanie NIE zwiększa celności trzymanej broni. Celowanie przez celownik już tak."
 
-L.tip34 = "Smoke grenades are effective indoors, especially for creating confusion in crowded rooms."
+L.tip34 = "Granaty dymne są świetnym rozwiązaniem do zrobienia czegoś w ukryciu w otoczeniu innych graczy."
 
-L.tip35 = "As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives."
+L.tip35 = "Pamiętaj, że jako Zdrajca możesz podnosić i chować ciała zabitych przez ciebie ofiar, przy użyciu PPM trzymając Magneto-Pałkę."
 
-L.tip36 = "The tutorial available under {helpkey} contains an overview of the most important keys of the game."
+L.tip36 = "Poradnik pod klawiszem {helpkey} zawiera najważniejsze aspekty rozgrywki TTT."
 
-L.tip37 = "On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair."
+L.tip37 = "Możesz oznaczać graczy jako Zaufani, Martwi bądź Podejrzani, najeżdżająć na nich na tabeli wyników i klikając PPM na ich nick."
 
-L.tip38 = "Many of the placeable equipment items (such as C4, Radio) can be stuck on walls using secondary fire."
+L.tip38 = "Wiele przedmiotów typu C4 lub Wabik może zostać przyczepionych do ścian."
 
-L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explosion than C4 that reaches zero on its timer."
+L.tip39 = "Eksplozja C4 po nieudanej próbie rozbrojenia ma mniejszy zasięg niż eksplozja C4 po upływie czasu."
 
-L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving."
+L.tip40 = "Gdy runda wskazuje fazę 'NORMALNEJ ROZGRYWKI', gra przebiega w czasie ustalonym przez serwer. Zaś długość 'DOGRYWKI' zależna jest od postępu Zdrajców w Zabijaniu Niewinnych."
 
 
 --- Round report
 
-L.report_title = "Round report"
+L.report_title = "Wynik rundy"
 
 -- Tabs
-L.report_tab_hilite = "Highlights"
-L.report_tab_hilite_tip = "Round highlights"
-L.report_tab_events = "Events"
-L.report_tab_events_tip = "Log of the events that happened this round"
-L.report_tab_scores = "Scores"
-L.report_tab_scores_tip = "Points scored by each player in this round alone"
+L.report_tab_hilite = "Wyróżnienia"
+L.report_tab_hilite_tip = "Wyróżnienia w tej rundzie"
+L.report_tab_events = "Wydarzenia"
+L.report_tab_events_tip = "Logi wydarzeń z bierzącej rundy"
+L.report_tab_scores = "Wyniki"
+L.report_tab_scores_tip = "Punkty zdobyte przez każdego z gracza w tej rundzie"
 
 -- Event log saving
 L.report_save     = "Save Log .txt"
-L.report_save_tip = "Saves the Event Log to a text file"
-L.report_save_error  = "No Event Log data to save."
-L.report_save_result = "The Event Log has been saved to:"
+L.report_save_tip = "Zapisuje logi wydarzeń do folderu logów."
+L.report_save_error  = "Brak logów wydarzeń do zapisania."
+L.report_save_result = "Logi wydarzeń zostały zapisane w:"
 
 -- Big title window
-L.hilite_win_traitors = "THE TRAITORS WIN"
-L.hilite_win_innocent = "THE INNOCENT WIN"
+L.hilite_win_traitors = "ZDRAJCY WYGRALI"
+L.hilite_win_innocent = "NIEWINNI WYGRALI"
 
-L.hilite_players1 = "{numplayers} players took part, {numtraitors} were traitors"
-L.hilite_players2 = "{numplayers} players took part, one of them the traitor"
+L.hilite_players1 = "{numplayers} graczy brało udział w rundzie, {numtraitors} graczy było Zdrajcami"
+L.hilite_players2 = "{numplayers} graczy brało udział w rundzie, jeden z nich był Zdrajcą"
 
-L.hilite_duration = "The round lasted {time}"
+L.hilite_duration = "Runda trwała {time}"
 
 -- Columns
-L.col_time   = "Time"
-L.col_event  = "Event"
-L.col_player = "Player"
-L.col_role   = "Role"
-L.col_kills1 = "Innocent kills"
-L.col_kills2 = "Traitor kills"
-L.col_points = "Points"
-L.col_team   = "Team bonus"
-L.col_total  = "Total points"
+L.col_time   = "Czas"
+L.col_event  = "Wydarzenie"
+L.col_player = "Gracz"
+L.col_role   = "Rola"
+L.col_kills1 = "Zabójstwa niewinnych"
+L.col_kills2 = "Zabójstwa zdrajców"
+L.col_points = "Punkty"
+L.col_team   = "Nagroda drużynowa"
+L.col_total  = "Suma punktów"
 
 -- Name of a trap that killed us that has not been named by the mapper
-L.something      = "something"
+L.something      = "coś"
 
 -- Kill events
-L.ev_blowup      = "{victim} blew themselves up"
-L.ev_blowup_trap = "{victim} was blown up by {trap}"
+L.ev_blowup      = "{victim} się wysadził"
+L.ev_blowup_trap = "{victim} został rozsadzony przez {trap}"
 
-L.ev_tele_self   = "{victim} telefragged themselves"
-L.ev_sui         = "{victim} couldn't take it and killed themselves"
-L.ev_sui_using   = "{victim} killed themselves using {tool}"
+L.ev_tele_self   = "{victim} przeteleportował się do innego wymiaru"
+L.ev_sui         = "{victim} nie zniósł tego i się zabił"
+L.ev_sui_using   = "{victim} zabił się przy pomocy {tool}"
 
-L.ev_fall        = "{victim} fell to their death"
-L.ev_fall_pushed = "{victim} fell to their death after {attacker} pushed them"
-L.ev_fall_pushed_using = "{victim} fell to their death after {attacker} used {trap} to push them"
+L.ev_fall        = "{victim} upadł z dużej wysokości"
+L.ev_fall_pushed = "{victim} upadł z dużej wysokości z pomocą gracza {attacker}"
+L.ev_fall_pushed_using = "{victim} rozbił sobie głowę, przy pomocy {trap} gracza {attacker}"
 
-L.ev_shot        = "{victim} was shot by {attacker}"
-L.ev_shot_using  = "{victim} was shot by {attacker} using a {weapon}"
+L.ev_shot        = "{victim} został zastrzelony przez {attacker}"
+L.ev_shot_using  = "{victim} został zastrzelony przez {attacker} z broni {weapon}"
 
-L.ev_drown       = "{victim} was drowned by {attacker}"
-L.ev_drown_using = "{victim} was drowned by {trap} triggered by {attacker}"
+L.ev_drown       = "{victim} został utopiony przez {attacker}"
+L.ev_drown_using = "{victim} został utopiony przez {trap} aktywowaną przez {attacker}"
 
-L.ev_boom        = "{victim} was exploded by {attacker}"
-L.ev_boom_using  = "{victim} was blown up by {attacker} using {trap}"
+L.ev_boom        = "{victim} został wysadzony przez {attacker}"
+L.ev_boom_using  = "{victim} został wysadzony przez {attacker} przy pomocy {trap}"
 
-L.ev_burn        = "{victim} was fried by {attacker}"
-L.ev_burn_using  = "{victim} was burned by {trap} due to {attacker}"
+L.ev_burn        = "{victim} został usmażony przez {attacker}"
+L.ev_burn_using  = "{victim} został usmażony przez {trap} aktywowaną dzięki {attacker}"
 
-L.ev_club        = "{victim} was beaten up by {attacker}"
-L.ev_club_using  = "{victim} was pummeled to death by {attacker} using {trap}"
+L.ev_club        = "{victim} został pobity na śmierć przez {attacker}"
+L.ev_club_using  = "{victim} został pobity na śmierć przez {attacker} przy pomocy {trap}"
 
-L.ev_slash       = "{victim} was stabbed by {attacker}"
-L.ev_slash_using = "{victim} was cut up by {attacker} using {trap}"
+L.ev_slash       = "{victim} został zadźgany przez {attacker}"
+L.ev_slash_using = "{victim} został rozćwiartowany przez {attacker} przy pomocy {trap}"
 
-L.ev_tele        = "{victim} was telefragged by {attacker}"
-L.ev_tele_using  = "{victim} was atomized by {trap} set by {attacker}"
+L.ev_tele        = "{victim} został przeteleportowany do innego wymiaru przez {attacker}"
+L.ev_tele_using  = "{victim} został rozszczepiony na atomy przez {trap} aktywowaną dzięki {attacker}"
 
-L.ev_goomba      = "{victim} was crushed by the massive bulk of {attacker}"
+L.ev_goomba      = "{victim} został zmieszany z błotem przez {attacker}"
 
-L.ev_crush       = "{victim} was crushed by {attacker}"
-L.ev_crush_using = "{victim} was crushed by {trap} of {attacker}"
+L.ev_crush       = "{victim} został zmiażdżony przez {attacker}"
+L.ev_crush_using = "{victim} został zmiażdżony przez {trap} przy pomocy {attacker}"
 
-L.ev_other       = "{victim} was killed by {attacker}"
-L.ev_other_using = "{victim} was killed by {attacker} using {trap}"
+L.ev_other       = "{victim} został zabity przez {attacker}"
+L.ev_other_using = "{victim} został zabity przez {attacker} przy pomocy {trap}"
 
 -- Other events
-L.ev_body        = "{finder} found the corpse of {victim}"
-L.ev_c4_plant    = "{player} planted C4"
-L.ev_c4_boom     = "The C4 planted by {player} exploded"
-L.ev_c4_disarm1  = "{player} disarmed C4 planted by {owner}"
-L.ev_c4_disarm2  = "{player} failed to disarm C4 planted by {owner}"
-L.ev_credit      = "{finder} found {num} credit(s) on the corpse of {player}"
+L.ev_body        = "{finder} znalazł ciało {victim}"
+L.ev_c4_plant    = "{player} uzbroił ładunek C4"
+L.ev_c4_boom     = "C4 uzbrojona przez {player} eksplodowała"
+L.ev_c4_disarm1  = "{player} rozbroił C4 uzbrojone przez {owner}"
+L.ev_c4_disarm2  = "{player} przeciął zły kabelek w bombie gracza {owner}"
+L.ev_credit      = "{finder} znalazł {num} kredyt(ów) na ciele gracza {player}"
 
-L.ev_start       = "The round started"
-L.ev_win_traitor = "The dastardly traitors won the round!"
-L.ev_win_inno    = "The lovable innocent terrorists won the round!"
-L.ev_win_time    = "The traitors ran out of time and lost!"
+L.ev_start       = "Runda się rozpoczęła"
+L.ev_win_traitor = "Bezczelni Zdrajcy wygrali!"
+L.ev_win_inno    = "Nasi bohaterscy Niewinni wygrali!"
+L.ev_win_time    = "Zdrajcom skończył się czas i przegrali!"
 
 --- Awards/highlights
 
-L.aw_sui1_title = "Suicide Cult Leader"
-L.aw_sui1_text  = "showed the other suiciders how to do it by being the first to go."
+L.aw_sui1_title = "Przedstawiciel ruchu samobójców"
+L.aw_sui1_text  = "pokazał innym samobójcom jak to się robi, ginąc jako pierwszy."
 
-L.aw_sui2_title = "Lonely and Depressed"
-L.aw_sui2_text  = "was the only one who killed themselves."
+L.aw_sui2_title = "Samotny i z depresją"
+L.aw_sui2_text  = "był jedynym który ukrócił swoje męki samemu."
 
-L.aw_exp1_title = "Explosives Research Grant"
-L.aw_exp1_text  = "was recognized for their research on explosions. {num} test subjects helped out."
+L.aw_exp1_title = "Specjalista do spraw wybuchów"
+L.aw_exp1_text  = "rozpoznawalny wśród znanej szeroko branży ekspertów od niekontrolowanych wybuchów. Pomocnej ręki w jego badaniach użyczyło {num} graczy."
 
-L.aw_exp2_title = "Field Research"
-L.aw_exp2_text  = "tested their own resistance to explosions. It was not high enough."
+L.aw_exp2_title = "Królik doświadczalny"
+L.aw_exp2_text  = "testował odporność swojej koszuli na wybuchy. Widać nie była ona wysoka."
 
-L.aw_fst1_title = "First Blood"
-L.aw_fst1_text  = "delivered the first innocent death at a traitor's hands."
+L.aw_fst1_title = "Pierwsza Krew"
+L.aw_fst1_text  = "jako pierwszy przelał krew Niewinnego Terrorysty. Brawo!"
 
-L.aw_fst2_title = "First Bloody Stupid Kill"
-L.aw_fst2_text  = "scored the first kill by shooting a fellow traitor. Good job."
+L.aw_fst2_title = "Nie do końca Pierwsza Krew?"
+L.aw_fst2_text  = "jako pierwszy przelał krew Terrorysty. Szkoda, że swojego kolegi, Zdrajcy."
 
-L.aw_fst3_title = "First Blooper"
-L.aw_fst3_text  = "was the first to kill. Too bad it was an innocent comrade."
+L.aw_fst3_title = "To było przez przypadek!"
+L.aw_fst3_text  = "jako pierwszy przelał krew Terrorysty. Wielka szkoda, że Niewinnego."
 
-L.aw_fst4_title = "First Blow"
-L.aw_fst4_text  = "struck the first blow for the innocent terrorists by making the first death a traitor's."
+L.aw_fst4_title = "Jednego mniej"
+L.aw_fst4_text  = "zrobił coś w końcu dobrze i zabił Zdrajcę. Oby tak dalej!"
 
-L.aw_all1_title = "Deadliest Among Equals"
-L.aw_all1_text  = "was responsible for every kill made by the innocent this round."
+L.aw_all1_title = "Armia jednoosobowa"
+L.aw_all1_text  = "odpowiedzialny za zabicie wszystkich Zdrajców. Prawdziwy przykład!"
 
-L.aw_all2_title = "Lone Wolf"
-L.aw_all2_text  = "was responsible for every kill made by a traitor this round."
+L.aw_all2_title = "'Nie lubię współpracować'"
+L.aw_all2_text  = "odpowiedzialny za zabicie wszystkich Niewinnych i Detektywów. Serio?"
 
-L.aw_nkt1_title = "I Got One, Boss!"
-L.aw_nkt1_text  = "managed to kill a single innocent. Sweet!"
+L.aw_nkt1_title = "Szefie, jednego mniej!"
+L.aw_nkt1_text  = "Udało mu się zabić aż jednego niewinnego. Szok!"
 
-L.aw_nkt2_title = "A Bullet For Two"
-L.aw_nkt2_text  = "showed the first one was not a lucky shot by killing another."
+L.aw_nkt2_title = "Jak być ekonomicznym"
+L.aw_nkt2_text  = "zabił dwie osoby jednym pociskiem. Jak?!"
 
-L.aw_nkt3_title = "Serial Traitor"
-L.aw_nkt3_text  = "ended three innocent lives of terrorism today."
+L.aw_nkt3_title = "Seryjny Zabójca"
+L.aw_nkt3_text  = "zakończył nędzny żywot trzech Niewinnych terrorystów. I tyle."
 
-L.aw_nkt4_title = "Wolf Among More Sheep-Like Wolves"
-L.aw_nkt4_text  = "eats innocent terrorists for dinner. A dinner of {num} courses."
+L.aw_nkt4_title = "Proszę o dokładkę"
+L.aw_nkt4_text  = "dzisiaj na obiad zjadł potrawkę z Niewinnych. A dokładnie {num} niewinnych."
 
-L.aw_nkt5_title = "Counter-Terrorism Operative"
-L.aw_nkt5_text  = "gets paid per kill. Can now buy another luxury yacht."
+L.aw_nkt5_title = "Tanio skóry nie sprzedam"
+L.aw_nkt5_text  = "zarobił na każdym zabójstwie. Teraz go stać na nowego Rolexa."
 
-L.aw_nki1_title = "Betray This"
-L.aw_nki1_text  = "found a traitor. Shot a traitor. Easy."
+L.aw_nki1_title = "Zdradź to"
+L.aw_nki1_text  = "znalazł Zdrajcę. Zastrzelił Zdrajcę. Proste? Proste."
 
-L.aw_nki2_title = "Applied to the Justice Squad"
+L.aw_nki2_title = ""
 L.aw_nki2_text  = "escorted two traitors to the great beyond."
 
 L.aw_nki3_title = "Do Traitors Dream Of Traitorous Sheep?"
@@ -1040,15 +1040,15 @@ L.aw_tod2_text  = "died right after the start of the round."
 
 
 --- v23
-L.set_avoid_det     = "Avoid being selected as Detective"
-L.set_avoid_det_tip = "Enable this to ask the server not to select you as Detective if possible. Does not mean you are Traitor more often."
+L.set_avoid_det     = "Unikaj bycia Detektywem"
+L.set_avoid_det_tip = "Dzięki tej opcji nie zostaniesz już Detektywem. Nie zwiększa to twoich szans na bycie Zdrajcą."
 
 --- v24
-L.drop_no_ammo = "Insufficient ammo in your weapon's clip to drop as an ammo box."
+L.drop_no_ammo = "Brak amunicji do wyrzucenia z magazynku broni."
 
 --- v31
-L.set_cross_brightness = "Crosshair brightness"
-L.set_cross_size = "Crosshair size"
+L.set_cross_brightness = "Jasność celownika"
+L.set_cross_size = "Rozmiar celownika"
 
 --- 5-25-15
-L.hat_retrieve = "You picked up a Detective's hat."
+L.hat_retrieve = "Podniosłeś czapeczke Detektywa!"
